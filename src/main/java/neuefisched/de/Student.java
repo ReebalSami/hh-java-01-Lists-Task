@@ -1,2 +1,6 @@
-package neuefisched.de;public class Student {
+package neuefisched.de;
+
+public class Student {
+
+
 }
