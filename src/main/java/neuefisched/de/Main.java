@@ -2,6 +2,7 @@ package neuefisched.de;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +28,9 @@ public class Main {
 
         school.removeStudent(students.get(0));
 
-        school.allStudent();
+        school.findStudent(222).addCourse(new Course("java beginners", "Marcell", 301));
+        school.findStudent(222).addCourse(new Course("frontend", "Martin", 405));
+
+        school.allCoursesOfStudent(222);
     }
 }

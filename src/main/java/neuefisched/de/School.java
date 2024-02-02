@@ -28,6 +28,10 @@ public class School {
         return null;
     }
 
+    public void allCoursesOfStudent(int studentID){
+        System.out.println(findStudent(studentID).getCourses());
+    }
+
     public void allStudent() {
         for (Student student : school) {
             System.out.println(student);
