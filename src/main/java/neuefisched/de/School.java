@@ -32,8 +32,10 @@ public class School {
         for (Student student : school) {
             System.out.println(student);
         }
+    }
 
-
+    public void removeStudent(Student student){
+        school.remove(student);
     }
 }
 

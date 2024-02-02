@@ -24,5 +24,9 @@ public class Main {
 
         System.out.println(school.findStudent(222));
         System.out.println(school.findStudent(777));
+
+        school.removeStudent(students.get(0));
+
+        school.allStudent();
     }
 }
